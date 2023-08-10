@@ -1,0 +1,11 @@
+.container {
+  margin: 2.5rem auto 0;
+}
+
+@media screen and (max-width: 999.99px) {
+  .container {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2.5rem auto 0;
+  }
+}
