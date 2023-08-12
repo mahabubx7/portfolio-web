@@ -3,21 +3,28 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 
-export default function Project({ imgUrl, imgAlt, heading, text }) {
+export default function Project({
+  imgUrl,
+  imgAlt,
+  heading,
+  text,
+  preview,
+  details,
+}) {
   return (
     <div>
       <div className={styles.container}>
         <div className={styles.img_container}>
-          <Image src={imgUrl} alt={imgAlt} />
+          <Image width={960} height={640} src={imgUrl} alt={imgAlt} />
         </div>
         <div className={styles.text_container}>
-          <h2> {heading}</h2>
+          <h2 className={styles.project_title}> {heading}</h2>
           <p>{text}</p>
           <p className={styles.action_btns}>
-            <Link href={"https://github.com/mahabubx7"}>
-              <button className={styles.btn}> Source Code</button>
+            <Link href={details} target="_blank">
+              <button className={styles.btn}> Details</button>
             </Link>
-            <Link href={"https://mahabubx7.github.io/portfolio"}>
+            <Link href={preview} target="_blank">
               <button className={styles.btn}> View </button>
             </Link>
           </p>

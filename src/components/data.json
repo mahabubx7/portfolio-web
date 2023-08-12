@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "image": "https://poly-screenshots.wellfound.com/Project/4a/1396390/9b4d5d397068585426d43a28bb92dcef-original.png",
+      "name": "Space Travelers Hub",
+      "preview": "https://space-traveller-hub.netlify.app/",
+      "code": "https://github.com/mahabubx7/space-travellers-hub",
+      "tags": ["React", "Redux", "Redux-toolkit", "TDD", "Webpack"],
+      "published": "2023-05-20",
+      "description": "Space Traveler's Hub is designed to make space travel more accessible than ever before. The app allows users to reserve flights on various spacecraft and get information on space-related activities."
+    },
+    {
+      "image": "https://poly-screenshots.wellfound.com/Project/9e/1396444/74f18f7bc1c7fd5e45c9a9c6964038f3-original.png",
+      "name": "Bookstore - web app.",
+      "preview": "https://bookstore-mahabubx7.netlify.app/",
+      "code": "https://github.com/mahabubx7/bookstore",
+      "tags": ["React", "Redux", "Redux-toolkit", "Webpack"],
+      "published": "2023-05-05",
+      "description": "A web application for storing various book's information and listing it."
+    },
+    {
+      "image": "https://poly-screenshots.wellfound.com/Project/26/1396445/3ff600b018f06947fd35912ce05a510a-original.png",
+      "name": "Startup Society Dhaka Summit 2023",
+      "preview": "https://mahabubx7.github.io/capstone-project-1/",
+      "code": "https://github.com/mahabubx7/capstone-project-1",
+      "tags": ["Html", "SCSS", "JavaScript"],
+      "published": "2023-03-16",
+      "description": "This is a conference event based website made with static-stack and used for online presence with event join invitations"
+    },
+    {
+      "image": "https://poly-screenshots.wellfound.com/Project/60/1397572/adad76781a7507b1632938ca12e7342a-original.png",
+      "name": "Population Metrics - (Mobile Web App.)",
+      "preview": "https://population-metrics.netlify.app/",
+      "code": "https://github.com/mahabubx7/population-metrics",
+      "tags": ["React", "Redux", "Redux-toolkit", "TDD", "Vite"],
+      "published": "2023-05-23",
+      "description": "Population Metrics is a mobile web application that provides population stats on country basis."
+    }
+  ]
+}
