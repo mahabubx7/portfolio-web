@@ -16,6 +16,7 @@
 }
 .img_container {
   max-width: 50%;
+  min-width: 49.9%;
 }
 .btn {
   background: #1da1f2;
@@ -27,6 +28,11 @@
 }
 .text_container > a {
   text-decoration: none;
+}
+
+.project_title {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 .action_btns {
