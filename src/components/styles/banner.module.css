@@ -16,7 +16,9 @@
 .h1_heading {
   color: #2a2b2c;
   font-size: 2.75rem;
+  font-weight: 900;
   filter: drop-shadow(0 1mm 1mm rgba(70, 70, 70, 0.25));
+  margin-bottom: 2.25rem;
 }
 
 .social_links {
@@ -55,6 +57,27 @@
   border-radius: 50%;
 }
 
+.img_elements {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  z-index: 99;
+  filter: drop-shadow(0 1mm 1mm rgba(47, 141, 208, 0.55));
+  border-radius: 50%;
+}
+
+.first_container {
+  position: relative;
+}
+
+.second_container {
+  border-radius: 40px;
+  border: 0.2rem dashed rgba(42, 43, 44, 0.07);
+  padding: 2rem 1.5rem;
+  padding-left: 2.5rem;
+  margin-left: 1rem;
+}
+
 .second_container h1 {
   font-size: 2.75rem;
   font-weight: 700;
@@ -64,11 +87,12 @@
   display: inline-block;
   object-fit: cover;
   max-width: 100%;
-  width: 350px;
+  width: 420px;
   filter: drop-shadow(0 3mm 3mm rgba(0, 0, 0, 0.5));
   padding: 0.5rem;
-  border: 0.2rem dotted rgba(0, 0, 0, 0.25);
-  border-radius: 80px;
+  border: 0.2rem dashed rgba(0, 0, 0, 0.07);
+  border-radius: 120px;
+  z-index: 1;
 }
 
 .btn {
@@ -126,10 +150,31 @@
     margin-top: 2rem;
   }
 
+  .img_elements {
+    width: 40px;
+    height: 40px;
+  }
+
+  .second_container {
+    margin-left: 0;
+    margin-top: 1.5rem;
+  }
+
   .second_container h1 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .second_container > i {
+    font-size: 14px;
+  }
+
+  .txt_container {
+    width: 100%;
+    padding: auto 0.25rem;
+    font-size: 16px;
+    margin: auto;
   }
 
   .social_links {
@@ -139,10 +184,6 @@
   .my_image {
     max-width: 250px;
     object-fit: cover;
-  }
-
-  .txt_container {
-    width: 100%;
-    margin: auto;
+    margin-bottom: 1rem;
   }
 }
