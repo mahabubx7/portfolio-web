@@ -144,7 +144,7 @@ export default function Banner() {
           </Link>
         </div>
         <h1 className={styles.h1_heading}>Software Engineer</h1>
-        <i>
+        <i style={{ display: "block", marginBottom: "1rem" }}>
           <span className="deem">&gt;&gt;</span> Remote 🌏 :: 💼 Full-time{" "}
           <span className="deem">&lt;&lt;</span>
         </i>
