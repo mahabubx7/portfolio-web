@@ -12,6 +12,94 @@ export default function Banner() {
     <div className={styles.container}>
       <div className={styles.first_container}>
         <Image src={myImg} alt="profile" className={styles.my_image} />
+        <div
+          className={styles.img_elements}
+          style={{
+            top: "1rem",
+            left: "-1.5rem",
+            animation: "spinSlow 15s infinite",
+          }}
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+        </div>
+
+        <div
+          className={styles.img_elements}
+          style={{
+            bottom: "-1rem",
+            right: "-0.3rem",
+            animation: "bumping 7s infinite",
+          }}
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+        </div>
+
+        <div
+          className={styles.img_elements}
+          style={{
+            top: "0",
+            right: "-0.3rem",
+            transform: "skewY(-0.06turn)",
+            animation: "bumpingSkew 5s infinite",
+          }}
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
+        </div>
+
+        <div
+          className={styles.img_elements}
+          style={{
+            bottom: "0",
+            left: "-0.3rem",
+            animation: "bumping 5s infinite",
+          }}
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+        </div>
+
+        <div
+          className={styles.img_elements}
+          style={{
+            bottom: "-1.5rem",
+            left: "calc(15% + 20px)",
+            animation: "bumpingSkew 5s infinite",
+          }}
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+        </div>
+
+        <div
+          className={styles.img_elements}
+          style={{
+            bottom: "-1.25rem",
+            right: "calc(18% + 30px)",
+            animation: "bumping 5s infinite",
+          }}
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+        </div>
+
+        <div
+          className={styles.img_elements}
+          style={{
+            bottom: "calc(50% - 20px)",
+            right: "-2rem",
+            animation: "bumping 5s infinite",
+          }}
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+        </div>
+
+        <div
+          className={styles.img_elements}
+          style={{
+            bottom: "calc(50% - 20px)",
+            left: "-2.75rem",
+            animation: "bumping 5s infinite",
+          }}
+        >
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+        </div>
       </div>
       <div className={styles.second_container}>
         <div className={styles.social_links}>
@@ -55,9 +143,12 @@ export default function Banner() {
             />{" "}
           </Link>
         </div>
-        <h1 className={styles.h1_heading}>Software Developer</h1>
-        <i>&gt;&gt; Remote 🌏 :: 💼 Full-time &lt;&lt;</i>
-        <div className={styles.img_container}>
+        <h1 className={styles.h1_heading}>Software Engineer</h1>
+        <i>
+          <span className="deem">&gt;&gt;</span> Remote 🌏 :: 💼 Full-time{" "}
+          <span className="deem">&lt;&lt;</span>
+        </i>
+        {/* <div className={styles.img_container}>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
@@ -73,7 +164,7 @@ export default function Banner() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
-        </div>
+        </div> */}
         <div className={styles.txt_container}>
           A passionate full-stack web-developer from Bangladesh, who loves
           Remote/W.F.H lifestyle and making solutions by code. Looking for a
