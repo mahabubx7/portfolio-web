@@ -1,12 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
-// import Logo from "@/assets/logo.png";
 import Link from "next/link";
-// import Github from "@/assets/github.png";
-// import INsta from "@/assets/insta.png";
-// import Fb from "@/assets/fb.png";
 import styles from "./styles/navbar.module.css";
+import angelLicon from "@/assets/angelist.svg";
 
 export default function Navbar() {
   return (
@@ -47,6 +44,16 @@ export default function Navbar() {
                 width={28}
                 height={28}
                 alt="icon-linkedin"
+              />{" "}
+            </Link>
+
+            <Link href="https://wellfound.com/u/mahabubx7" target="_blank">
+              <Image
+                src={angelLicon}
+                width={28}
+                className={styles.icon_img}
+                height={28}
+                alt="icon-angel-list"
               />{" "}
             </Link>
 

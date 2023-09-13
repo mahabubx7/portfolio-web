@@ -4,6 +4,7 @@ import styles from "./styles/banner.module.css";
 import React from "react";
 import Image from "next/image";
 import myImg from "@/assets/me_web.png";
+import angelLicon from "@/assets/angelist.svg";
 import Link from "next/link";
 
 export default function Banner() {
@@ -31,6 +32,16 @@ export default function Banner() {
               width={28}
               height={28}
               alt="icon-linkedin"
+            />{" "}
+          </Link>
+
+          <Link href="https://wellfound.com/u/mahabubx7" target="_blank">
+            <Image
+              src={angelLicon}
+              width={28}
+              className={styles.icon_img}
+              height={28}
+              alt="icon-angel-list"
             />{" "}
           </Link>
 
