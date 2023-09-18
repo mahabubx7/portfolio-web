@@ -143,11 +143,10 @@ export default function Banner() {
             />{" "}
           </Link>
         </div>
-        <h1 className={styles.h1_heading}>Software Engineer</h1>
-        <i style={{ display: "block", marginBottom: "1rem" }}>
-          <span className="deem">&gt;&gt;</span> Remote 🌏 :: 💼 Full-time{" "}
-          <span className="deem">&lt;&lt;</span>
-        </i>
+        <h1 className={styles.h1_heading}>Full-Stack Developer</h1>
+        <p style={{ display: "block", marginBottom: "1rem", color: "#afafaf" }}>
+          <b>Tech-stack: </b>Node.js, React, Ruby on Rails, Postgres & more.
+        </p>
         {/* <div className={styles.img_container}>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
@@ -166,11 +165,10 @@ export default function Banner() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
         </div> */}
         <div className={styles.txt_container}>
-          A passionate full-stack web-developer from Bangladesh, who loves
-          Remote/W.F.H lifestyle and making solutions by code. Looking for a
-          full-time (remote) or freelance contract.
+          Hi, I&apos;m <b>Mahabub</b>✋. A passionate Full-Stack Developer based
+          in 📌Bangladesh.
         </div>
-        <div>
+        <div className={styles.btn_holder}>
           <Link
             target="_blank"
             className={styles.btn}
