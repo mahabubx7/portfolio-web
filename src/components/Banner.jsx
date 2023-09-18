@@ -143,11 +143,10 @@ export default function Banner() {
             />{" "}
           </Link>
         </div>
-        <h1 className={styles.h1_heading}>Software Engineer</h1>
-        <i style={{ display: "block", marginBottom: "1rem" }}>
-          <span className="deem">&gt;&gt;</span> Remote 🌏 :: 💼 Full-time{" "}
-          <span className="deem">&lt;&lt;</span>
-        </i>
+        <h1 className={styles.h1_heading}>Full-Stack Developer</h1>
+        <p style={{ display: "block", marginBottom: "1rem", color: "#afafaf" }}>
+          <b>Tech-stack: </b>Node.js, React, Ruby on Rails, Postgres & more.
+        </p>
         {/* <div className={styles.img_container}>
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
@@ -166,17 +165,32 @@ export default function Banner() {
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
         </div> */}
         <div className={styles.txt_container}>
-          A passionate full-stack web-developer from Bangladesh, who loves
-          Remote/W.F.H lifestyle and making solutions by code. Looking for a
-          full-time (remote) or freelance contract.
+          Hi, I&apos;m <b>Mahabub</b>✋. A passionate Full-Stack Developer based
+          in 📌Bangladesh.
         </div>
-        <div>
+        <div className={styles.btn_holder}>
           <Link
             target="_blank"
             className={styles.btn}
             href="https://docs.google.com/document/d/1RwQf6YPAwbUZITOUy-LbyOMXTo6btFslvfI8iLXLnU8/edit?usp=sharing"
           >
-            get resume
+            <span>get resume</span>
+            <span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                />
+              </svg>
+            </span>
           </Link>
         </div>
       </div>

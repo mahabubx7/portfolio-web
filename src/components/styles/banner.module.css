@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   gap: 1.5rem;
-  margin-top: 200px;
+  margin-top: 120px;
   align-items: center;
   margin-bottom: 320px;
 }
@@ -10,7 +10,7 @@
 .txt_container {
   width: auto;
   max-width: 600px;
-  font-size: 20px;
+  font-size: 1.5rem;
 }
 
 .h1_heading {
@@ -18,7 +18,8 @@
   font-size: 2.75rem;
   font-weight: 900;
   filter: drop-shadow(0 1mm 1mm rgba(70, 70, 70, 0.25));
-  margin-bottom: 2.25rem;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
 }
 
 .social_links {
@@ -98,19 +99,30 @@
 .btn {
   display: inline-flex;
   justify-content: center;
+  gap: 0.35rem;
   align-items: center;
-  padding: 0.5rem 1.75rem;
-  background-color: #1da1f2;
+  padding: 0.75rem 2rem;
+  background-color: #ff4d30;
   color: white;
   border-radius: 0.35rem;
   text-transform: capitalize;
-  margin: 2rem auto 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
   transition: all 0.25s ease-in;
   filter: drop-shadow(0 1mm 1mm rgba(29, 161, 242, 0));
 }
 
 .btn:hover {
-  filter: drop-shadow(0 2mm 3mm rgba(29, 161, 242, 0.35));
+  filter: drop-shadow(0 2mm 3mm rgba(233, 83, 60, 0.3));
+  background-color: #e9533c;
+}
+
+.btn_holder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2.5rem auto 1rem;
 }
 
 @media screen and (max-width: 1099.99px) {
@@ -127,11 +139,13 @@
 
   .second_container {
     text-align: center;
+    padding-left: 1.5rem;
   }
 
   .img_container {
     justify-content: center;
     gap: 1.25rem;
+    margin-bottom: 1rem;
   }
   .txt_container {
     width: 70%;
@@ -148,6 +162,7 @@
 
   .h1_heading {
     margin-top: 2rem;
+    margin-bottom: 0;
   }
 
   .img_elements {
@@ -157,7 +172,8 @@
 
   .second_container {
     margin-left: 0;
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
+    border: 0;
   }
 
   .second_container h1 {
@@ -170,6 +186,14 @@
     font-size: 14px;
   }
 
+  .btn_holder {
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
   .txt_container {
     width: 100%;
     padding: auto 0.25rem;
@@ -179,6 +203,8 @@
 
   .social_links {
     display: flex;
+    margin-top: -1.75rem;
+    margin-bottom: 0;
   }
 
   .my_image {
