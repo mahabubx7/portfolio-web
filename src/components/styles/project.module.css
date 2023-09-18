@@ -10,7 +10,7 @@
 }
 
 .container:hover .text_container {
-  scale: 1.05;
+  transform: translateX(-1.5rem);
 }
 
 .text_container {
@@ -46,9 +46,12 @@
 }
 
 .btn {
-  background: #1da1f2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: #ff4d30;
   color: white;
-  padding: 0.5rem 1.75rem;
+  padding: 0.5rem 1.5rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
