@@ -135,6 +135,10 @@
   .text_container p {
     font-size: 9px;
   }
+
+  .container:hover .text_container {
+    transform: translateX(0);
+  }
 }
 
 @media screen and (max-width: 499.99px) {
