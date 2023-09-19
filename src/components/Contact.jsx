@@ -14,8 +14,6 @@ export default function Contact() {
 
   return (
     <section id="contact" className={styles.contact_area}>
-      <h2 className={styles.heading}>Get in touch</h2>
-
       <form className={styles.form} onSubmit={handleSubmit}>
         <input
           name="name"

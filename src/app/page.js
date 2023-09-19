@@ -13,15 +13,19 @@ export default function page() {
       <Navbar />
       <div className="container">
         <Banner />
-        <h1 className={styles.title}> Projects</h1>
+        <h2 className={styles.title}> My Works</h2>
         <Projects />
 
+        <h2 className={styles.title}> Contact Me</h2>
         <Contact />
       </div>
 
       <footer className={styles.footer}>
         <div className="container">
-          <p> {currentYear === 2023 ? "© 2023;" : `© 2023 - ${currentYear}`}</p>
+          <p>
+            {" "}
+            {currentYear === 2023 ? "© 2023;" : `© 2023 - ${currentYear}`}
+          </p>
           <p>
             All rights reserved & copyrighted by{" "}
             <Link target="_blank" href="https://github.com/mahabubx7">

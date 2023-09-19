@@ -1,10 +1,33 @@
 .title {
+  display: flow-root;
+  position: relative;
   text-align: center;
-  margin-top: 80px;
-  margin-bottom: 0;
+  min-width: 100px;
+  margin: 80px auto 0 auto;
   font-size: 2.5rem;
   font-weight: 700;
   color: #303336;
+  text-transform: uppercase;
+}
+
+.title::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  border-bottom: 2px dashed rgba(255, 77, 48, 0.5);
+  min-width: 200px;
+  bottom: -0.5rem;
+  right: calc(50% - 100px);
+}
+
+.title::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  border-bottom: 2px dashed rgba(255, 77, 48, 0.5);
+  min-width: 200px;
+  top: -0.5rem;
+  right: calc(50% - 100px);
 }
 
 .footer {
