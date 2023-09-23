@@ -1,9 +1,6 @@
-/* eslint-disable jsx-a11y/alt-text */
-/* eslint-disable @next/next/no-img-element */
 import styles from "./styles/banner.module.css";
-import React from "react";
 import Image from "next/image";
-import myImg from "@/assets/me_web.png";
+import myImg from "@/assets/me_web.webp";
 import angelLicon from "@/assets/angelist.svg";
 import Link from "next/link";
 
@@ -11,7 +8,13 @@ export default function Banner() {
   return (
     <div className={styles.container}>
       <div className={styles.first_container}>
-        <Image src={myImg} alt="profile" className={styles.my_image} />
+        <Image
+          src={myImg}
+          alt="profile"
+          priority={true}
+          className={styles.my_image}
+          placeholder="blur"
+        />
         <div
           className={styles.img_elements}
           style={{
@@ -20,7 +23,13 @@ export default function Banner() {
             animation: "spinSlow 15s infinite",
           }}
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+          <Image
+            alt="skill-icon"
+            width={80}
+            height={80}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            priority={true}
+          />
         </div>
 
         <div
@@ -31,7 +40,13 @@ export default function Banner() {
             animation: "bumping 7s infinite",
           }}
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+          <Image
+            alt="skill-icon"
+            width={80}
+            height={80}
+            priority={true}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+          />
         </div>
 
         <div
@@ -43,7 +58,13 @@ export default function Banner() {
             animation: "bumpingSkew 5s infinite",
           }}
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg" />
+          <Image
+            alt="skill-icon"
+            width={80}
+            height={80}
+            priority={true}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg"
+          />
         </div>
 
         <div
@@ -54,7 +75,13 @@ export default function Banner() {
             animation: "bumping 5s infinite",
           }}
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+          <Image
+            alt="skill-icon"
+            width={80}
+            height={80}
+            priority={true}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+          />
         </div>
 
         <div
@@ -65,7 +92,13 @@ export default function Banner() {
             animation: "bumpingSkew 5s infinite",
           }}
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
+          <Image
+            alt="skill-icon"
+            width={80}
+            height={80}
+            priority={true}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+          />
         </div>
 
         <div
@@ -76,7 +109,13 @@ export default function Banner() {
             animation: "bumping 5s infinite",
           }}
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+          <Image
+            alt="skill-icon"
+            width={80}
+            height={80}
+            priority={true}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+          />
         </div>
 
         <div
@@ -87,7 +126,13 @@ export default function Banner() {
             animation: "bumping 5s infinite",
           }}
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />
+          <Image
+            alt="skill-icon"
+            width={80}
+            height={80}
+            priority={true}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+          />
         </div>
 
         <div
@@ -98,7 +143,13 @@ export default function Banner() {
             animation: "bumping 5s infinite",
           }}
         >
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+          <Image
+            alt="skill-icon"
+            width={80}
+            height={80}
+            priority={true}
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+          />
         </div>
       </div>
       <div className={styles.second_container}>
@@ -109,6 +160,7 @@ export default function Banner() {
               alt="icon-github"
               width={28}
               height={28}
+              priority={true}
               className={styles.icon_img}
             />
           </Link>
@@ -119,6 +171,7 @@ export default function Banner() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
               width={28}
               height={28}
+              priority={true}
               alt="icon-linkedin"
             />{" "}
           </Link>
@@ -129,6 +182,7 @@ export default function Banner() {
               width={28}
               className={styles.icon_img}
               height={28}
+              priority={true}
               alt="icon-angel-list"
             />{" "}
           </Link>
@@ -139,6 +193,7 @@ export default function Banner() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
               width={28}
               height={28}
+              priority={true}
               alt="icon-twitter"
             />{" "}
           </Link>

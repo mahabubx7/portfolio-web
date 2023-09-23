@@ -4,8 +4,8 @@ import { Fira_Code } from "next/font/google";
 const fira = Fira_Code({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Mahabub | Junior SDE",
-  description: "SDE (Full-stack)",
+  title: "Mahabub | Full-Stack Developer",
+  description: "A passionate Full-Stack Developer based in 📌Bangladesh.",
 };
 
 export default function RootLayout({ children }) {

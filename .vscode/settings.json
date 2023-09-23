@@ -2,5 +2,12 @@
   "files.eol": "\n",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "cSpell.words": ["angelist", "devicon", "fira", "formspree", "tailwindcss"]
+  "cSpell.words": [
+    "angelist",
+    "devicon",
+    "fira",
+    "formspree",
+    "tailwindcss",
+    "wellfound"
+  ]
 }
