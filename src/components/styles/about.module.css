@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 120px;
+  align-items: center;
+  margin-bottom: 320px;
+}
+
+.about_info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.card {
+  max-width: 33.99%;
+  font-size: 1.15rem;
+  color: #3e3e3e;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+
+.card h3 {
+  position: relative;
+  border-bottom: 2px dashed rgba(222, 80, 58, 0.3);
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 0.5rem;
+}
+
+.card h3::after {
+  position: absolute;
+  content: "";
+  top: calc(50% - 10px);
+  left: -1.5rem;
+  width: 20px;
+  height: 20px;
+  border: 2px dashed rgba(222, 80, 58, 0.35);
+}
+
+.card h3::before {
+  position: absolute;
+  content: "";
+  top: calc(50% - 15px);
+  left: -1.75rem;
+  width: 20px;
+  height: 20px;
+  border: 2px dashed rgba(222, 80, 58, 0.35);
+}
+
+.card p > b {
+  color: #dc432c;
+}
+
+.card p {
+  letter-spacing: -1px;
+  word-spacing: -3px;
+}
+
+.card p > summary {
+  list-style: circle;
+}
+
+.card p > summary small {
+  font-size: 1rem;
+}
+
+.card p > summary small b {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1099px) {
+  .about_info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .about_info {
+    padding-left: 0.5rem;
+    gap: 2.5rem;
+  }
+
+  .card {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .card h3 {
+    width: calc(100vw - 3rem);
+    padding-left: 0.5rem;
+  }
+}
