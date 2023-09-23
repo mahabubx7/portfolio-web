@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import About from "@/components/About";
 import Link from "next/link";
 
 export default function page() {
@@ -13,6 +14,10 @@ export default function page() {
       <Navbar />
       <div className="container">
         <Banner />
+
+        <h2 className={styles.title}> About Me</h2>
+        <About />
+
         <h2 className={styles.title}> My Works</h2>
         <Projects />
 
