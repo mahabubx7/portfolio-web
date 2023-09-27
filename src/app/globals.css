@@ -70,6 +70,11 @@ body {
   border-radius: 0.4rem;
 }
 
+#contact .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 @keyframes spinSlow {
   0% {
     rotate: 0deg;
@@ -141,11 +146,23 @@ body {
   }
 }
 
-@media screen and (max-width: 999.9px) {
+@media screen and (min-width: 999.99px) {
+  #contact .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 999.98px) {
   body {
     backdrop-filter: blur(0);
   }
+
   .container {
     width: 94%;
+  }
+
+  #contact .container {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
