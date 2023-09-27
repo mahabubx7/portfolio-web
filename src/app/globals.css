@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  position: relative;
   color: rgb(var(--foreground-rgb));
   background: url("../../public/inspiration-geometry-1920x1080.png");
   background-repeat: repeat;
@@ -68,6 +69,11 @@ body {
   background-color: white;
   padding: 2rem 0;
   border-radius: 0.4rem;
+}
+
+#contact .container {
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes spinSlow {
@@ -141,11 +147,59 @@ body {
   }
 }
 
-@media screen and (max-width: 999.9px) {
+.logo_text {
+  color: #3e3e3e;
+  word-spacing: -2px;
+}
+.logo_dot {
+  line-height: 1rem;
+  color: #ff4d30;
+  letter-spacing: -2px;
+}
+
+#hamb {
+  display: none;
+  position: sticky;
+  top: 1rem;
+  left: 87%;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  background-color: #e54b33;
+  color: white;
+  border-radius: 50%;
+  outline: none;
+  filter: drop-shadow(0 1mm 1mm #ff4d30);
+  z-index: 9999;
+}
+
+.is_hidden {
+  display: none !important;
+}
+
+@media screen and (min-width: 999.99px) {
+  #contact .container {
+    flex-direction: row;
+  }
+
+  #hamb {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 999.98px) {
   body {
     backdrop-filter: blur(0);
   }
+
   .container {
     width: 94%;
+  }
+
+  #contact .container {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
