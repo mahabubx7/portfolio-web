@@ -3,6 +3,27 @@ import styles from "./styles/about.module.css";
 export default function About() {
   return (
     <div className={styles.container} id="about">
+      <div className={styles.about_summary}>
+        <div className={styles.summary_card}>
+          <h3>1+</h3>
+          <p>Years of experience in Remote/W.F.H.</p>
+        </div>
+
+        <div className={styles.summary_card}>
+          <h3>12+</h3>
+          <p>projects has been completed.</p>
+        </div>
+
+        <div className={styles.summary_card}>
+          <h3>300+</h3>
+          <p>Hours spent doing Pair-Programming.</p>
+        </div>
+
+        <div className={styles.summary_card}>
+          <h3>15+</h3>
+          <p>Happy clients during Freelance or contract</p>
+        </div>
+      </div>
       <div className={styles.about_info}>
         <aside className={styles.card}>
           <h3>Myself</h3>

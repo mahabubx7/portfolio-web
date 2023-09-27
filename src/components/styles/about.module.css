@@ -1,10 +1,64 @@
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   gap: 1.5rem;
   margin-top: 120px;
   align-items: center;
-  margin-bottom: 320px;
+  margin-bottom: 180px;
+}
+
+.about_summary {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  margin-bottom: 4.5rem;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.about_summary .summary_card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 0;
+  width: 100%;
+  padding: 2.5rem 2.25rem;
+  background: linear-gradient(#ef5138, #f32707);
+  border-radius: 5px;
+  box-shadow: 0 0.35rem 0.8rem 0 #f93719;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.summary_card::after {
+  position: absolute;
+  content: "";
+  top: -70px;
+  right: -70px;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: rgba(246, 98, 75, 0.8);
+  transform: rotate(135deg);
+  transition: all 0.2s ease-in;
+}
+
+.summary_card:hover::after {
+  top: -50px;
+  right: -50px;
+  width: 140px;
+  height: 140px;
+}
+
+.summary_card h3 {
+  font-size: 2.75rem;
+  font-weight: 700;
+}
+
+.summary_card p {
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .about_info {
@@ -74,10 +128,25 @@
   font-weight: 500;
 }
 
+@media screen and (max-width: 1399px) {
+  .about_summary {
+    gap: 1rem;
+  }
+
+  .about_summary .summary_card p {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 1099px) {
   .about_info {
     flex-direction: column;
     align-items: center;
+  }
+
+  .about_summary {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
   }
 
   .card {
@@ -89,6 +158,15 @@
   .about_info {
     padding-left: 0.5rem;
     gap: 2.5rem;
+  }
+
+  .about_summary {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem 0;
+  }
+
+  .about_summary .summary_card {
+    font-size: 1rem;
   }
 
   .card {
