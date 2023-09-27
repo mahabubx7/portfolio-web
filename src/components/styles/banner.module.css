@@ -69,6 +69,7 @@
 
 .first_container {
   position: relative;
+  margin-top: 0;
 }
 
 .second_container {

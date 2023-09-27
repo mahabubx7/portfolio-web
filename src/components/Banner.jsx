@@ -2,6 +2,7 @@ import styles from "./styles/banner.module.css";
 import Image from "next/image";
 import myImg from "@/assets/me_web.webp";
 import angelLicon from "@/assets/angelist.svg";
+import skypeIcon from "@/assets/skype-svgrepo-com.svg";
 import Link from "next/link";
 
 export default function Banner() {
@@ -195,6 +196,19 @@ export default function Banner() {
               height={28}
               priority={true}
               alt="icon-twitter"
+            />{" "}
+          </Link>
+
+          <Link
+            href="https://join.skype.com/invite/qt7xglGbLLbh"
+            target="_blank"
+          >
+            <Image
+              className={styles.icon_img}
+              src={skypeIcon}
+              width={28}
+              height={28}
+              alt="icon-skype"
             />{" "}
           </Link>
         </div>

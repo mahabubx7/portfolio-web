@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" id="top">
       <body className={fira.className}>{children}</body>
     </html>
   );
