@@ -2,21 +2,19 @@
   "projects": [
     {
       "featured": true,
-      "image": "https://placehold.co/1200x720/CC3534/white/webp?text=@mx7/OTP",
+      "image": "https://poly-screenshots.wellfound.com/Project/d5/1441298/ab42863341c741b09eca29b0baf72b11-original.png",
       "name": "OTP generator (nodejs-package)",
+      "optimize": true,
       "preview": "https://www.npmjs.com/package/@mx7/otp",
       "code": "https://github.com/mahabubx7/otp",
-      "tags": [
-        "Nodejs",
-        "JavaScript",
-        "TypeScript"
-      ],
+      "tags": ["Nodejs", "JavaScript", "TypeScript"],
       "published": "2024-01-03",
       "description": "Welcome! This node package is built for generating OTP per necessary requirements. It can generate both numeric or alpha-numeric. Hope you will enjoy it!"
     },
     {
       "featured": true,
-      "image": "https://placehold.co/1200x720/003366/white/webp?text=AdonisJs+%26+Postgres+\n+REST+API+starter",
+      "optimize": true,
+      "image": "https://poly-screenshots.wellfound.com/Project/c7/1441299/dc245d9e06e8bc5e62f863d9e14abb31-original.png",
       "name": "REST API starter with AdonisJs & Postgres",
       "preview": "https://github.com/mahabubx7/adonis-api-starter#readme",
       "code": "https://github.com/mahabubx7/adonis-api-starter",
@@ -33,6 +31,7 @@
     },
     {
       "featured": false,
+      "optimize": true,
       "image": "https://poly-screenshots.wellfound.com/Project/60/1422154/ec2a3917475df2f5d5c671954925d00f-original.png",
       "name": "Yacht Booking app",
       "preview": "https://yacht-booking-app.onrender.com",
@@ -50,6 +49,7 @@
     },
     {
       "featured": true,
+      "optimize": true,
       "image": "https://poly-screenshots.wellfound.com/Project/1a/1416612/bdfb614937f5f9405451f2670ed37307-original.png",
       "name": "Expense Tracker",
       "preview": "https://expense-tracker-8nzv.onrender.com/",
@@ -66,6 +66,7 @@
     },
     {
       "featured": false,
+      "optimize": true,
       "image": "https://poly-screenshots.wellfound.com/Project/60/1397572/adad76781a7507b1632938ca12e7342a-original.png",
       "name": "Population Metrics - (Mobile Web App.)",
       "preview": "https://population-metrics.netlify.app/",
@@ -75,7 +76,8 @@
       "description": "Population Metrics is a mobile web application that provides population stats on country basis."
     },
     {
-      "featured": false,
+      "featured": true,
+      "optimize": true,
       "image": "https://poly-screenshots.wellfound.com/Project/4a/1396390/9b4d5d397068585426d43a28bb92dcef-original.png",
       "name": "Space Travelers Hub",
       "preview": "https://space-traveller-hub.netlify.app/",
@@ -85,7 +87,8 @@
       "description": "Space Traveler's Hub is designed to make space travel more accessible than ever before. The app allows users to reserve flights on various spacecraft and get information on space-related activities."
     },
     {
-      "featured": false,
+      "featured": true,
+      "optimize": true,
       "image": "https://poly-screenshots.wellfound.com/Project/26/1396445/3ff600b018f06947fd35912ce05a510a-original.png",
       "name": "Startup Society Dhaka Summit 2023",
       "preview": "https://mahabubx7.github.io/startup-society-dhaka",

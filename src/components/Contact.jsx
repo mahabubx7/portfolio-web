@@ -89,21 +89,21 @@ export default function Contact() {
             name="name"
             placeholder="Your name"
             required
-            autocomplete={false}
+            autoComplete={undefined}
           />
           <input
             name="email"
             type="email"
             placeholder="Your email-address"
             required
-            autocomplete={false}
+            autoComplete={undefined}
           />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
           <textarea
             name="message"
             placeholder="Write your message ..."
             required
-            autocomplete={false}
+            autoComplete={undefined}
           ></textarea>
           <ValidationError
             prefix="Message"

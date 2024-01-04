@@ -9,8 +9,13 @@ const nextConfig = {
         port: "",
         pathname: "/Project/**",
       },
+      {
+        protocol: "https",
+        hostname: "placehold.co",
+        port: "",
+        pathname: "/1200x720/**",
+      },
     ],
-    // deviceSizes: [320, 640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     deviceSizes: [320, 640, 750, 828, 1080, 1200, 1920],
   },
   experimental: {

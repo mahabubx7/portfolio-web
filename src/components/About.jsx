@@ -54,18 +54,18 @@ export default function About() {
           </p>
           <p>
             <b>Languages: </b>
-            <summary>
+            <span>
               <small>
                 <b className="fw-500">English</b>
                 <span className="deem-sm"> (Fluent)</span>
               </small>
-            </summary>
-            <summary>
+            </span>
+            <span>
               <small>
                 <b className="fw-500">Bangla/Bengali</b>
                 <span className="deem-sm"> (Native)</span>
               </small>
-            </summary>
+            </span>
           </p>
         </aside>
 
@@ -88,12 +88,12 @@ export default function About() {
           </p>
           <p>
             <b>Tools & more: </b>
-            <summary>
+            <span>
               <small>
                 <b className="fw-500">Git, GitHub, Code Review</b>
               </small>
-            </summary>
-            <summary>
+            </span>
+            <span>
               <small>
                 <b className="fw-500">Linux</b>
                 <span className="deem-xm"> (Ubuntu)</span>
@@ -101,8 +101,8 @@ export default function About() {
               <small>
                 <b className="fw-500">, Docker</b>
               </small>
-            </summary>
-            <summary>
+            </span>
+            <span>
               <small>
                 <b className="fw-500">RESTful APIs</b>
                 <span className="deem-xm fw-500"> (JSON)</span>
@@ -111,7 +111,7 @@ export default function About() {
                 <b className="fw-500">, GraphQL</b>
                 <span className="deem-xm fw-500"> (Apollo)</span>, etc.
               </small>
-            </summary>
+            </span>
           </p>
         </aside>
 
@@ -122,35 +122,35 @@ export default function About() {
           </p>
           <p>
             <b>Experience: </b>
-            <summary>
+            <span>
               <small>
                 <b>Full Stack Web Developer</b> <br /> Self-Employed | Freelance
               </small>
               <span className="deem-xm"> (Dec 2021 - Present)</span>
-            </summary>
-            <summary>
+            </span>
+            <span>
               <small>
                 <b>Web Developer</b> <br />
                 Fiverr | Freelance
               </small>
               <span className="deem-xm"> (May 2018 - Aug 2018)</span>
-            </summary>
+            </span>
           </p>
           <p>
             <b>Education: </b>
-            <summary>
+            <span>
               <small>
                 <b>Remote Full-Stack Web Development</b> <br /> Microverse
                 <span className="deem-xm"> (Feb 2023 - Sep 2023)</span>
               </small>
-            </summary>
-            <summary>
+            </span>
+            <span>
               <small>
                 <b>Computer Science and Engineering (C.S.E)</b> <br />
                 Green University of BD
               </small>
               <span className="deem-xm"> (May 2021 - Present)</span>
-            </summary>
+            </span>
           </p>
         </aside>
       </div>

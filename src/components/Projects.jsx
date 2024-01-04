@@ -19,6 +19,7 @@ export default function Projects() {
             preview={project.preview}
             details={project.code}
             tags={project.tags}
+            optimize={project.optimize}
           />
         ) : null,
       )}
