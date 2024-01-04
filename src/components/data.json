@@ -9,7 +9,7 @@
       "tags": [
         "Nodejs",
         "JavaScript",
-        "TypeScript",
+        "TypeScript"
       ],
       "published": "2024-01-03",
       "description": "Welcome! This node package is built for generating OTP per necessary requirements. It can generate both numeric or alpha-numeric. Hope you will enjoy it!"
