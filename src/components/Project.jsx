@@ -11,12 +11,19 @@ export default function Project({
   preview,
   details,
   tags,
+  optimize,
 }) {
   return (
     <div>
       <div className={styles.container}>
         <div className={styles.img_container}>
-          <Image width={960} height={640} src={imgUrl} alt={imgAlt} />
+          <Image
+            width={960}
+            height={640}
+            src={imgUrl}
+            alt={imgAlt}
+            unoptimized={optimize ? true : undefined}
+          />
         </div>
         <div className={styles.text_container}>
           <h2 className={styles.project_title}> {heading}</h2>
