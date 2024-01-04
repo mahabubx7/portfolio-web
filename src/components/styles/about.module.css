@@ -116,15 +116,15 @@
   word-spacing: -3px;
 }
 
-.card p > summary {
+.card p > span {
   list-style: circle;
 }
 
-.card p > summary small {
+.card p > span small {
   font-size: 1rem;
 }
 
-.card p > summary small b {
+.card p > span small b {
   font-weight: 500;
 }
 
