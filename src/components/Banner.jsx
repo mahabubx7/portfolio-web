@@ -241,7 +241,7 @@ export default function Banner() {
           <Link
             target="_blank"
             className={styles.btn}
-            href="https://docs.google.com/document/d/1RwQf6YPAwbUZITOUy-LbyOMXTo6btFslvfI8iLXLnU8/edit?usp=sharing"
+            href="https://drive.google.com/uc?export=download&id=1d1d3gs_iolWPLuEvAKg88YdWSXnx5_jw"
           >
             <span>get resume</span>
             <span>
