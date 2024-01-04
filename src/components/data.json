@@ -2,7 +2,7 @@
   "projects": [
     {
       "featured": true,
-      "image": "https://placehold.co/1200x720/CC3534/white/webp?text=@mx7/OTP",
+      "image": "https://poly-screenshots.wellfound.com/Project/d5/1441298/ab42863341c741b09eca29b0baf72b11-original.png",
       "name": "OTP generator (nodejs-package)",
       "optimize": true,
       "preview": "https://www.npmjs.com/package/@mx7/otp",
@@ -13,8 +13,8 @@
     },
     {
       "featured": true,
-      "optimize": false,
-      "image": "https://placehold.co/1200x720/003366/white/webp?text=AdonisJs+%26+Postgres+\n+REST+API+starter",
+      "optimize": true,
+      "image": "https://poly-screenshots.wellfound.com/Project/c7/1441299/dc245d9e06e8bc5e62f863d9e14abb31-original.png",
       "name": "REST API starter with AdonisJs & Postgres",
       "preview": "https://github.com/mahabubx7/adonis-api-starter#readme",
       "code": "https://github.com/mahabubx7/adonis-api-starter",
