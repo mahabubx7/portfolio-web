@@ -2,6 +2,37 @@
   "projects": [
     {
       "featured": true,
+      "image": "https://placehold.co/1200x720/CC3534/white/webp?text=@mx7/OTP",
+      "name": "OTP generator (nodejs-package)",
+      "preview": "https://www.npmjs.com/package/@mx7/otp",
+      "code": "https://github.com/mahabubx7/otp",
+      "tags": [
+        "Nodejs",
+        "JavaScript",
+        "TypeScript",
+      ],
+      "published": "2024-01-03",
+      "description": "Welcome! This node package is built for generating OTP per necessary requirements. It can generate both numeric or alpha-numeric. Hope you will enjoy it!"
+    },
+    {
+      "featured": true,
+      "image": "https://placehold.co/1200x720/003366/white/webp?text=AdonisJs+%26+Postgres+\n+REST+API+starter",
+      "name": "REST API starter with AdonisJs & Postgres",
+      "preview": "https://github.com/mahabubx7/adonis-api-starter#readme",
+      "code": "https://github.com/mahabubx7/adonis-api-starter",
+      "tags": [
+        "Nodejs",
+        "TypeScript",
+        "Adonisjs",
+        "PostgreSQL",
+        "OpenAPI",
+        "Swagger"
+      ],
+      "published": "2023-12-06",
+      "description": "This is a REST-API starter with AdonisJS (v5) + PostgreSQL as boilerplate. It can help you to get started with building directly the app business logics instead of grounding up."
+    },
+    {
+      "featured": false,
       "image": "https://poly-screenshots.wellfound.com/Project/60/1422154/ec2a3917475df2f5d5c671954925d00f-original.png",
       "name": "Yacht Booking app",
       "preview": "https://yacht-booking-app.onrender.com",
@@ -44,7 +75,7 @@
       "description": "Population Metrics is a mobile web application that provides population stats on country basis."
     },
     {
-      "featured": true,
+      "featured": false,
       "image": "https://poly-screenshots.wellfound.com/Project/4a/1396390/9b4d5d397068585426d43a28bb92dcef-original.png",
       "name": "Space Travelers Hub",
       "preview": "https://space-traveller-hub.netlify.app/",
